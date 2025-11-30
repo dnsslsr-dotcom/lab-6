@@ -1,0 +1,12 @@
+users = {
+    232: "Alice",
+    550: "Bob",
+    190: "Jack"
+}
+
+for _ in range(4):
+    x = int(input())
+    if x in users:
+        print("Hi, " + users[x] + "!")
+    else:
+        print("Hi, to all!")
