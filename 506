@@ -1,0 +1,10 @@
+n = 4
+engines = {}
+
+engines["Yahoo!"] = 2.09
+engines["Google"] = 90.15
+engines["Bing"] = 3.23
+engines["Baidu"] = 2.2
+
+for key, value in engines.items():
+    print(key + ": " + str(value))
